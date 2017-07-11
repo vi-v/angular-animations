@@ -7,7 +7,11 @@ import { Component, OnInit } from '@angular/core';
 })
 export class QuoteComponent implements OnInit {
 
-  constructor() { }
+  private quote: String;
+
+  constructor() {
+    this.quote = "Test quote"
+  }
 
   ngOnInit() {
   }
