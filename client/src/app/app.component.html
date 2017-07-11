@@ -1,8 +1,10 @@
-<app-goal 
-  *ngFor="let goal of courseGoals" 
-  [goal]="goal"
-  [ngClass]="{ active: goal.isActive }"
-  (click)="goal.isActive=!goal.isActive"></app-goal>
+<div class="container">
+  <app-goal 
+    *ngFor="let goal of courseGoals" 
+    [goal]="goal"
+    [ngClass]="{ active: goal.isActive }"
+    (click)="goal.isActive=!goal.isActive"></app-goal>
 
-<h1>My Quotes</h1>
-<app-quote></app-quote>
+  <h1>My Quotes</h1>
+  <app-quote></app-quote>
+</div>
