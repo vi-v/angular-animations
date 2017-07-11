@@ -1,7 +1,7 @@
 :host {
     display: inline-block;
     border: 1px solid black;
-    border-radius: 5px 5px 0 0;
+    border-radius: 0.5em;
     padding: 20px;
     width: 300px;
     margin: 30px;
@@ -11,5 +11,5 @@
 :host(.active) {
     border: 3px solid blue;
     padding: 18px;
-    
+
 }
